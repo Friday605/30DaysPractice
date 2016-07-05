@@ -414,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pr1SimpleStopWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Friday.Pr1SimpleStopWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pr1SimpleStopWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Friday.Pr1SimpleStopWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +498,7 @@
 				B6533E9E1D2BA07C00480AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6533E9F1D2BA07C00480AF2 /* Build configuration list for PBXNativeTarget "Pr1SimpleStopWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +507,7 @@
 				B6533EA11D2BA07C00480AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6533EA21D2BA07C00480AF2 /* Build configuration list for PBXNativeTarget "Pr1SimpleStopWatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +516,7 @@
 				B6533EA41D2BA07C00480AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

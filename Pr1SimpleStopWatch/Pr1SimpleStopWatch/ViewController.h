@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *lblTime;
+- (IBAction)reset:(UIButton *)sender;
+- (IBAction)start:(UIButton *)sender;
+- (IBAction)cause:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *btnStart;
+@property (weak, nonatomic) IBOutlet UIButton *btnCause;
 
 @end
 
